@@ -1,0 +1,1 @@
+(typeof fq_callback==='function'||typeof fq_callback==='object')&&fq_callback(200)
