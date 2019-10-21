@@ -3,6 +3,35 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1 {
+/* Header */
+
+.top-bar-big {
+  background: #f34423;
+}
+
+.logo-big {
+  background: url(./img/newsweek-logo.svg) no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* Main */
+
+.grey-title, .grey-title a, .grey-title a:hover {
   color: rgba(3,3,3,.4);
+  text-decoration: none;
+}
+
+.subline-red a:hover {
+  text-decoration-color: #f34423;
+}
+
+.hover-red a:hover {
+  color: #f34423;
+  text-decoration: none;
+}
+
+.lora {
+  font-family: Lora, serif;
 }
