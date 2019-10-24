@@ -45,7 +45,7 @@ body {
 }
 
 .logo-big {
-  background: url(./img/newsweek-logo.svg) -40px -30px no-repeat;
+  background: url(./img/newsweek-logo.svg) 0 -30px no-repeat;
   background-size: cover;
   width: 500px;
   height: 65px;
