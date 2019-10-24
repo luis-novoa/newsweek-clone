@@ -89,12 +89,15 @@ body {
   height: 13px;
 }
 
+.categories {
+  width: 92%;
+}
+
 .bottom-nav-anchor {
   color: black;
   font-size: 21px;
-  border-right: 1px solid #d9d9d9;
+  border-right: #d9d9d9;
   line-height: normal;
-  padding-right: 20px;
 }
 
 #vantage {
@@ -103,12 +106,13 @@ body {
 }
 
 #searchbar {
+  position: absolute;
+  right: 8vw;
   width: 70px;
   border: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  margin-right: -30px;
   color: rgba(0, 0, 0, 0.55);
 }
 
@@ -121,14 +125,13 @@ body {
 
 @keyframes expand {
   100% {
-    position: absolute;
-    right: 70px;
     width: 96%;
   }
 }
 
 .search-icon {
-  display: inline-block;
+  position: absolute;
+  right: 7vw;
   width: 20px;
   height: 20px;
   background: url(./img/icon-search-glass.svg) 0 0 no-repeat;
