@@ -2,10 +2,40 @@
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  overflow-x: hidden;
 }
 
 .text-red {
   color: #f34423;
+}
+
+.hover-red a:hover {
+  color: #f34423;
+  text-decoration: none;
+}
+
+.hover-red-single:hover {
+  color: #f34423;
+  text-decoration: none;
+}
+
+.subline-red a:hover {
+  text-decoration-color: #f34423;
+}
+
+.no-subline:hover {
+  text-decoration: none;
+}
+
+.grey-title,
+.grey-title a,
+.grey-title a:hover {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
+}
+
+.lora {
+  font-family: Lora, serif;
 }
 
 /* Header */
@@ -25,14 +55,6 @@ body {
   font-size: 18px;
 }
 
-.top-bar-right a:hover {
-  text-decoration: none;
-}
-
-#subscribe:hover {
-  color: #f34423;
-}
-
 .right-arrow {
   display: inline-block;
   width: 10px;
@@ -44,24 +66,24 @@ body {
   margin: 0 15px 1px 5px;
 }
 
+.skew-wrapper {
+
+}
+
+.nav-skew {
+  float: left;
+  background: #f34423;
+  width: 78px;
+  height: 13px;
+  transform: skewX(45deg);
+}
+
+.skew-filler {
+  position: absolute;
+  right: 0;
+  background: #f34423;
+  width: 20px;
+  height: 13px;
+}
+
 /* Main */
-
-.grey-title,
-.grey-title a,
-.grey-title a:hover {
-  color: rgba(3, 3, 3, 0.4);
-  text-decoration: none;
-}
-
-.subline-red a:hover {
-  text-decoration-color: #f34423;
-}
-
-.hover-red a:hover {
-  color: #f34423;
-  text-decoration: none;
-}
-
-.lora {
-  font-family: Lora, serif;
-}
