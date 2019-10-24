@@ -40,7 +40,14 @@ body {
 
 /* Header */
 
+/* Big and Medium */
+
 .top-bar-big {
+  position: relative;
+  z-index: 2000;
+}
+
+.top-bar {
   background: #f34423;
 }
 
@@ -80,6 +87,24 @@ body {
   background: #f34423;
   width: 20px;
   height: 13px;
+}
+
+/* Small */
+
+.logo {
+  width: 165px;
+  height: auto;
+}
+
+.nav-menu {
+  border: none;
+  background: transparent;
+  color: #fb9a94;
+  transform: scale(1.7);
+}
+
+.nav-menu:focus {
+  outline: none;
 }
 
 /* Main */
