@@ -89,7 +89,6 @@ body {
   height: 13px;
 }
 
-
 .bottom-nav-anchor {
   color: black;
   font-size: 21px;
@@ -109,11 +108,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  margin-right: -12px;
+  margin-right: -30px;
+  color: rgba(0, 0, 0, 0.55);
 }
 
 #searchbar:focus {
   outline: none;
+  animation-name: expand;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes expand {
+  100% {
+    position: absolute;
+    right: 70px;
+    width: 96%;
+  }
 }
 
 .search-icon {

@@ -48,10 +48,9 @@
           <a href="#" class="bottom-nav-anchor">Health</a>
           <a href="#" class="bottom-nav-anchor">Opinion</a>
           <a href="#" class="bottom-nav-anchor" id="vantage">Vantage</a>
-          <div class="search">
-            <input type="search" name="searchbar" id="searchbar" placeholder="Search">
-            <div class="search-icon"></div>
-          </div>
+          <input type="search" name="searchbar" id="searchbar" placeholder="Search" onfocus="this.placeholder = ''"
+            onblur="this.placeholder='Search'">
+          <div class="search-icon"></div>
         </nav>
       </div>
 
