@@ -28,9 +28,9 @@ body {
 }
 
 .grey-title,
-.grey-title a,
-.grey-title a:hover {
-  color: rgba(3, 3, 3, 0.4);
+.grey-title-anchor,
+.grey-title-anchor:hover {
+  color: #737373;
   text-decoration: none;
 }
 
