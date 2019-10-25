@@ -173,6 +173,7 @@ header {
   width: 220px;
   height: calc(100vh - 50px);
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #categories-hidden:target {
