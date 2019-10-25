@@ -168,10 +168,15 @@ header {
 }
 
 #categories-hidden {
+  display: none;
   box-shadow: -1px 0 6px -4px;
   width: 220px;
   height: calc(100vh - 50px);
   overflow-y: auto;
+}
+
+#categories-hidden:target {
+  display: block;
 }
 
 #searchbar-hidden {
@@ -209,6 +214,14 @@ header {
 
 .bottom-nav-anchor-hidden:hover .grey {
   color: #f34423;
+}
+
+.exit {
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 0;
+  margin-right: -2px;
 }
 
 /* Main */

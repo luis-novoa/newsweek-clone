@@ -59,7 +59,7 @@
       <!-- MD and SM navbar d-lg-none d-xl-none -->
 
       <div class="fixed-top">
-        <nav class="top-bar d-flex pr-4 justify-content-between align-items-center">
+        <nav id="closed" class="top-bar d-flex pr-4 justify-content-between align-items-center">
           <a class="navbar-brand" href="#"><img class="logo" src="./img/newsweek-logo.svg"></a>
           <div class="top-bar-right d-flex justify-content-between align-items-center">
             <a href="#" class="text-white font-weight-bold px-3 no-subline">SIGN IN</a>
@@ -70,7 +70,7 @@
             <a class="genericon genericon-menu nav-menu mt-0 ml-4" href="#categories-hidden"></a>
           </div>
         </nav>
-        <nav id="categories-hidden" class="d-flex flex-column float-right bg-white font-weight-bold py-2">
+        <nav id="categories-hidden" class="float-right bg-white font-weight-bold py-2">
           <div class="search-hidden d-flex justify-content-between align-items-center pl-3 pr-2">
             <input type="search" name="searchbar-hidden" id="searchbar-hidden" placeholder="Search"
               onfocus="this.placeholder = ''" onblur="this.placeholder='Search'">
@@ -116,6 +116,11 @@
           <a href="#"
             class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Vantage</span>
             <div class="right-arrow grey"></div>
+          </a>
+          <a href="#closed"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-end"><span>Close
+              Menu</span>
+            <div class="genericon genericon-close-alt grey exit"></div>
           </a>
         </nav>
       </div>
