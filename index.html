@@ -58,16 +58,67 @@
 
       <!-- MD and SM navbar d-lg-none d-xl-none -->
 
-      <nav class="top-bar d-flex pr-4 fixed-top justify-content-between align-items-center">
-        <a class="navbar-brand" href="#"><img class="logo" src="./img/newsweek-logo.svg"></a>
-        <div class="top-bar-right d-flex justify-content-between align-items-center">
-          <a href="#" class="text-white font-weight-bold px-3 no-subline">SIGN IN</a>
-          <a href="#" class="bg-white text-red font-weight-bold pl-3 hover-red-single" id="subscribe">SUBSCRIBE <div
-              class="right-arrow">
-            </div></a>
-          <button class="genericon genericon-menu nav-menu mx-2"></button>
-        </div>
-      </nav>
+      <div class="fixed-top">
+        <nav class="top-bar d-flex pr-4 justify-content-between align-items-center">
+          <a class="navbar-brand" href="#"><img class="logo" src="./img/newsweek-logo.svg"></a>
+          <div class="top-bar-right d-flex justify-content-between align-items-center">
+            <a href="#" class="text-white font-weight-bold px-3 no-subline">SIGN IN</a>
+            <a href="#" class="bg-white text-red font-weight-bold pl-3 hover-red-single" id="subscribe">SUBSCRIBE <div
+                class="right-arrow">
+              </div>
+            </a>
+            <a class="genericon genericon-menu nav-menu mt-0 ml-4" href="#categories-hidden"></a>
+          </div>
+        </nav>
+        <nav id="categories-hidden" class="d-flex flex-column float-right bg-white font-weight-bold py-2">
+          <div class="search-hidden d-flex justify-content-between align-items-center pl-3 pr-2">
+            <input type="search" name="searchbar-hidden" id="searchbar-hidden" placeholder="Search"
+              onfocus="this.placeholder = ''" onblur="this.placeholder='Search'">
+            <div class="search-icon-hidden"></div>
+          </div>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 pt-2 pb-1 d-flex justify-content-between align-items-center"><span>U.S.</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>World</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Business</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Tech &
+              Science</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Culture</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Newsgeek</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Sports</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Health</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Opinion</span>
+            <div class="right-arrow grey"></div>
+          </a>
+          <a href="#"
+            class="bottom-nav-anchor-hidden pl-3 py-1 d-flex justify-content-between align-items-center"><span>Vantage</span>
+            <div class="right-arrow grey"></div>
+          </a>
+        </nav>
+      </div>
     </header>
     <main>
 

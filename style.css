@@ -136,7 +136,7 @@ header {
 
 @keyframes expand {
   100% {
-    width: 96%;
+    width: 91%;
   }
 }
 
@@ -159,12 +159,56 @@ header {
 .nav-menu {
   border: none;
   background: transparent;
-  color: #fb9a94;
+  color: #fb9a94 !important;
   transform: scale(1.7);
 }
 
-.nav-menu:focus {
-  outline: none;
+.nav-menu:hover {
+  text-decoration: none;
+}
+
+#categories-hidden {
+  box-shadow: -1px 0 6px -4px;
+  width: 220px;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+#searchbar-hidden {
+  width: 160px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.search-icon-hidden {
+  width: 20px;
+  height: 20px;
+  background: url(./img/icon-search-glass.svg) 0 0 no-repeat;
+  vertical-align: bottom;
+}
+
+.bottom-nav-anchor-hidden {
+  color: black;
+  font-size: 21px;
+  line-height: normal;
+}
+
+.bottom-nav-anchor-hidden:hover {
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+
+.grey {
+  color: #737373;
+  margin: 2px;
+}
+
+.bottom-nav-anchor-hidden:hover .grey {
+  color: #f34423;
 }
 
 /* Main */
