@@ -42,6 +42,10 @@ body {
 
 /* Big and Medium */
 
+header {
+  border-bottom: #f4f5f6 2px solid;
+}
+
 .top-bar-big {
   position: relative;
   z-index: 2000;
@@ -91,18 +95,25 @@ body {
 
 .categories {
   width: 92%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .bottom-nav-anchor {
   color: black;
   font-size: 21px;
-  border-right: #d9d9d9;
+  border-right: #d9d9d9 1px solid;
   line-height: normal;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#us {
+  padding-left: 0;
 }
 
 #vantage {
   border: none;
-  padding: 0;
 }
 
 #searchbar {
@@ -157,7 +168,3 @@ body {
 }
 
 /* Main */
-
-main {
-  background: #f4f5f6;
-}
