@@ -5,12 +5,23 @@ body {
   overflow-x: hidden;
 }
 
-.text-red {
-  color: #f34423;
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
 }
 
 .text-blue {
   color: #3581f4;
+}
+
+.text-red {
+  color: #f34423;
+}
+
+.hover-black,
+.hover-black:hover {
+  color: black;
 }
 
 .hover-red a:hover {
@@ -268,4 +279,12 @@ header {
 
 .slide-counter {
   padding-top: 2px;
+}
+
+/* Larger version */
+
+@media (min-width: 768px) {
+  p {
+    font-size: 15px;
+  }
 }
