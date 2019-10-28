@@ -42,6 +42,10 @@ body {
   font-family: Lora, serif;
 }
 
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 figure {
   position: relative;
 }
@@ -248,3 +252,20 @@ header {
 /* Main */
 
 /* Top Story */
+
+/* Featured Slideshows */
+
+.slide-tag {
+  display: flex;
+  justify-content: center;
+  background: url(./img/icon-slideshows-nw.png) 0 0 no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 52px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.slide-counter {
+  padding-top: 2px;
+}
