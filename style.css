@@ -65,6 +65,11 @@ figure {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+.img-resizable {
+  width: 100%;
+  height: auto;
+}
+
 /* Header */
 
 /* Big and Medium */
@@ -260,6 +265,13 @@ header {
 
 /* Top Story */
 
+/* More Stories */
+
+.more-stories-img {
+  width: 258px;
+  margin-right: 15px;
+}
+
 /* Culture & Travel */
 
 .lora {
@@ -351,5 +363,11 @@ header {
 
   .feat-title {
     font-size: 24px;
+  }
+
+  /* More Stories */
+
+  .more-stories-img {
+    width: 135px;
   }
 }
