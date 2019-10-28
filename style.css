@@ -9,6 +9,10 @@ body {
   color: #f34423;
 }
 
+.text-blue {
+  color: #3581f4;
+}
+
 .hover-red a:hover {
   color: #f34423;
   text-decoration: none;
@@ -36,6 +40,18 @@ body {
 
 .lora {
   font-family: Lora, serif;
+}
+
+figure {
+  position: relative;
+}
+
+.img-tag {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 8px 15px;
+  background-color: rgba(255,255,255,.9);
 }
 
 /* Header */
@@ -189,6 +205,10 @@ header {
   color: rgba(0, 0, 0, 0.55);
 }
 
+#searchbar-hidden:focus {
+  outline: none;
+}
+
 .search-icon-hidden {
   width: 20px;
   height: 20px;
@@ -226,3 +246,5 @@ header {
 }
 
 /* Main */
+
+/* Top Story */
