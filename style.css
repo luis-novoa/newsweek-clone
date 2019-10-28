@@ -34,7 +34,7 @@ p {
   text-decoration: none;
 }
 
-.subline-red a:hover {
+.subline-red:hover {
   text-decoration-color: #f34423;
 }
 
@@ -316,6 +316,13 @@ header {
 .opinion p {
   font-family: 'Roboto Condensed', sans-serif;
   color: #555;
+}
+
+/* Sponsored Insight */
+
+.sign-up-logo {
+  width: 20px;
+  height: auto;
 }
 
 /* Featured Slideshows */
