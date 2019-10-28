@@ -311,6 +311,13 @@ header {
   font-size: 20px;
 }
 
+/* Opinion */
+
+.opinion p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #555;
+}
+
 /* Featured Slideshows */
 
 .slide-tag {
