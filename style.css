@@ -45,7 +45,7 @@ p {
 .grey-title,
 .grey-title-anchor,
 .grey-title-anchor:hover {
-  color: #737373;
+  color: rgba(3, 3, 3, 0.4);
   text-decoration: none;
 }
 
@@ -305,6 +305,12 @@ header {
   text-decoration: none;
 }
 
+/* Featured Stories */
+
+.feat-title {
+  font-size: 20px;
+}
+
 /* Featured Slideshows */
 
 .slide-tag {
@@ -327,5 +333,9 @@ header {
 @media (min-width: 768px) {
   p {
     font-size: 15px;
+  }
+
+  .feat-title {
+    font-size: 24px;
   }
 }
