@@ -337,6 +337,12 @@ header {
   height: auto;
 }
 
+/* Featured Stories */
+
+.sponsored-block {
+  border: 1px solid #e6e6e6;
+}
+
 /* Featured Slideshows */
 
 .slide-tag {
