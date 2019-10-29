@@ -408,6 +408,13 @@ header {
   .more-stories-img {
     width: 135px;
   }
+
+  /* Sponsored Insight */
+
+  .sponsored-insight {
+    max-width: 330px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 992px) {
