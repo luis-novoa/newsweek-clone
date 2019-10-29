@@ -327,19 +327,19 @@ header {
   border: 1px solid #e6e6e6;
 }
 
+/* Sponsored Insight */
+
+.sign-up-logo {
+  width: 20px;
+  height: auto;
+}
+
 /* Opinion */
 
 .opinion p {
   font-family: 'Roboto Condensed', sans-serif;
   color: #555;
   font-size: 14px;
-}
-
-/* Sponsored Insight */
-
-.sign-up-logo {
-  width: 20px;
-  height: auto;
 }
 
 /* Featured Slideshows */
