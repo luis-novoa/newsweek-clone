@@ -358,6 +358,7 @@ header {
 .sign-up-anchor {
   background: #666;
   color: white;
+  width: fit-content;
 }
 
 .sign-up-anchor:hover {
@@ -373,6 +374,26 @@ header {
 .preferences-anchor:hover {
   color: #333;
   text-decoration: none;
+}
+
+/* In the Magazine */
+
+.cover-link {
+  width: 100%;
+  background: #f4f5f6;
+}
+
+.cover-link:hover {
+  background: #dbdcdd;
+}
+
+.cover-anchor {
+  width: 100%;
+}
+
+.cover-anchor:hover {
+  text-decoration: none;
+  background: #dbdcdd;
 }
 
 /* Featured Slideshows */
@@ -420,7 +441,13 @@ header {
 @media (min-width: 992px) {
   /* Sponsored Insight */
 
+  .sponsored-insight {
+    width: 100%;
+    max-width: none;
+  }
+
   .newsletter-small {
+    max-width: 300px;
     width: 100%;
   }
 }
