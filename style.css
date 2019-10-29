@@ -324,14 +324,7 @@ header {
 }
 
 .sponsored-block {
-  border: 1px solid #e6e6e6;
-}
-
-/* Sponsored Insight */
-
-.sign-up-logo {
-  width: 20px;
-  height: auto;
+  border: 1px solid #e5e5e5;
 }
 
 /* Opinion */
@@ -340,6 +333,46 @@ header {
   font-family: 'Roboto Condensed', sans-serif;
   color: #555;
   font-size: 14px;
+}
+
+/* Sponsored Insight */
+
+.newsletter-small {
+  background: #f4f5f6;
+  border: 1px solid #e5e5e5;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.newsletter-small h2 {
+  color: #333;
+}
+
+.sign-up-logo {
+  width: 29px;
+  height: 28px;
+  background: #f34423;
+}
+
+.sign-up-anchor {
+  background: #666;
+  color: white;
+}
+
+.sign-up-anchor:hover {
+  text-decoration: none;
+  color: white;
+  background: #999;
+}
+
+.preferences-anchor {
+  color: #333;
+}
+
+.preferences-anchor:hover {
+  color: #333;
+  text-decoration: none;
 }
 
 /* Featured Slideshows */
@@ -374,5 +407,13 @@ header {
 
   .more-stories-img {
     width: 135px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Sponsored Insight */
+
+  .newsletter-small {
+    width: 100%;
   }
 }
