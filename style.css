@@ -24,6 +24,16 @@ p {
   line-height: 1;
 }
 
+.title-18 {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.title-20 {
+  font-size: 20px;
+  line-height: 1;
+}
+
 .hover-black,
 .hover-black:hover {
   color: black;
@@ -404,6 +414,8 @@ header {
 /* Featured Slideshows */
 
 #feat-logo {
+  width: 30px;
+  height: 29px;
   box-shadow: 3px 3px #f34423;
   border-right: 1px white solid;
   border-bottom: 1px white solid;
@@ -424,7 +436,6 @@ header {
   padding-top: 2px;
 }
 
-
 /* Larger version */
 
 @media (min-width: 768px) {
@@ -438,6 +449,14 @@ header {
 
   .title-16 {
     font-size: 20px;
+  }
+
+  .title-18 {
+    font-size: 22px;
+  }
+
+  .title-20 {
+    font-size: 24px;
   }
 
   .border-bottom-md {
