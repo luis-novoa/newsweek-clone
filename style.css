@@ -403,6 +403,12 @@ header {
 
 /* Featured Slideshows */
 
+#feat-logo {
+  box-shadow: 3px 3px #f34423;
+  border-right: 1px white solid;
+  border-bottom: 1px white solid;
+}
+
 .slide-tag {
   display: flex;
   justify-content: center;
@@ -417,6 +423,7 @@ header {
 .slide-counter {
   padding-top: 2px;
 }
+
 
 /* Larger version */
 
