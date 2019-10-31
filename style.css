@@ -472,6 +472,11 @@ header {
   background: #f4f5f6;
 }
 
+.covers-organizer,
+.covers-wrapper {
+  width: fit-content;
+}
+
 .covers {
   position: relative;
   width: 170px;
@@ -479,12 +484,13 @@ header {
 }
 
 #back-cover {
-  left: 12%;
+  right: 25%;
 }
 
 #front-cover {
-  top: 4%;
-  right: 12%;
+  position: absolute;
+  left: 25%;
+  top: 5%;
 }
 
 .newsletter {
