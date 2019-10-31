@@ -449,6 +449,10 @@ header {
 
 /* Subscribe and Newsletter */
 
+.last-categories {
+  border-top: 2px #f4f5f6 solid;
+}
+
 .last-categories p {
   font-size: 15px;
 }
@@ -457,6 +461,34 @@ header {
   background: #f34423;
   color: white;
   width: fit-content;
+}
+
+.subscribe {
+  background: #f4f5f6;
+}
+
+.covers-container {
+  position: relative;
+  right: 10%;
+}
+
+.covers {
+  width: 170px;
+  height: 228px;
+}
+
+#front-cover {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.newsletter {
+  border: 1px #f4f5f6 solid;
+}
+
+#bigger-lineheight {
+  line-height: 1.4;
 }
 
 /* Larger version */
