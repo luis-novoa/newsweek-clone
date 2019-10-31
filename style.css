@@ -560,8 +560,11 @@ header {
 
   /* Subscribe and Newsletter */
 
-  .covers-container {
-    right: 0;
+  .newsletter-img {
+    height: 210;
+    width: 191;
+    background-position: 50% 0;
+    background-size: cover;
   }
 }
 
