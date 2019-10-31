@@ -447,6 +447,18 @@ header {
   width: initial;
 }
 
+/* Subscribe and Newsletter */
+
+.last-categories p {
+  font-size: 15px;
+}
+
+.bottom-buttons {
+  background: #f34423;
+  color: white;
+  width: fit-content;
+}
+
 /* Larger version */
 
 @media (min-width: 768px) {
@@ -479,12 +491,6 @@ header {
     height: auto;
   }
 
-  /* Minor sections */
-
-.initial-width {
-  width: 100%;
-}
-
   /* More Stories */
 
   .more-stories-img {
@@ -496,6 +502,12 @@ header {
   .sponsored-insight {
     max-width: 330px;
     margin: 0 auto;
+  }
+
+  /* Minor sections */
+
+  .initial-width {
+    width: 100%;
   }
 }
 
