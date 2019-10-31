@@ -463,24 +463,28 @@ header {
   width: fit-content;
 }
 
+.bottom-buttons:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .subscribe {
   background: #f4f5f6;
 }
 
-.covers-container {
-  position: relative;
-  right: 10%;
-}
-
 .covers {
+  position: relative;
   width: 170px;
   height: 228px;
 }
 
+#back-cover {
+  left: 12%;
+}
+
 #front-cover {
-  position: absolute;
-  top: 13px;
-  left: 80px;
+  top: 4%;
+  right: 12%;
 }
 
 .newsletter {
@@ -546,6 +550,12 @@ header {
 
   .initial-width {
     width: 100%;
+  }
+
+  /* Subscribe and Newsletter */
+
+  .covers-container {
+    right: 0;
   }
 }
 
