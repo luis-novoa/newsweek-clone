@@ -484,11 +484,17 @@ header {
 }
 
 .newsletter {
-  border: 1px #f4f5f6 solid;
+  border: 1px #ebebeb solid;
 }
 
 #bigger-lineheight {
   line-height: 1.4;
+}
+
+.newsletter-img {
+  height: 160px;
+  background: url(./img/newsletter.png) 0 50% no-repeat;
+  background-size: cover;
 }
 
 /* Larger version */
