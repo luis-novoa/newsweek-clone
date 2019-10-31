@@ -85,6 +85,11 @@ figure {
   height: auto;
 }
 
+.img-non-resizable {
+  width: 258px;
+  height: auto;
+}
+
 /* Header */
 
 /* Big and Medium */
@@ -436,6 +441,12 @@ header {
   padding-top: 2px;
 }
 
+/* Minor sections */
+
+.initial-width {
+  width: initial;
+}
+
 /* Larger version */
 
 @media (min-width: 768px) {
@@ -462,6 +473,17 @@ header {
   .border-bottom-md {
     border-bottom: 1px solid #d9d9d9;
   }
+
+  .img-non-resizable {
+    width: 135px;
+    height: auto;
+  }
+
+  /* Minor sections */
+
+.initial-width {
+  width: 100%;
+}
 
   /* More Stories */
 
