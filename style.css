@@ -546,20 +546,42 @@ footer span {
   color: #3b5998;
 }
 
+#twitter {
+  font-size: 25px;
+}
+
 #twitter:hover {
   color: #1da1f2;
+}
+
+#insta {
+  font-size: 23px;
 }
 
 #insta:hover {
   color: #405de6;
 }
 
+#tumblr {
+  font-size: 20px;
+}
+
 #tumblr:hover {
   color: #35465c;
 }
 
+#linkedin {
+  font-size: 30px;
+}
+
 #linkedin:hover {
   color: #0077b5;
+}
+
+.genericon-linkedin::before {
+  position: relative;
+  right: 5px;
+  bottom: 5px;
 }
 
 #editions {
