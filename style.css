@@ -615,6 +615,10 @@ footer span {
     border-bottom: 1px solid #d9d9d9;
   }
 
+  .border-right-md {
+    border-right: 1px solid #d9d9d9;
+  }
+
   .img-non-resizable {
     width: 135px;
     height: auto;
@@ -646,12 +650,6 @@ footer span {
     width: 191px;
     background-position: 50% 0;
     background-size: cover;
-  }
-
-  /* Footer */
-
-  .footer-logo {
-    height: 48px;
   }
 }
 
