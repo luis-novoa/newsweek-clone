@@ -561,8 +561,8 @@ header {
   /* Subscribe and Newsletter */
 
   .newsletter-img {
-    height: 210;
-    width: 191;
+    height: 210px;
+    width: 191px;
     background-position: 50% 0;
     background-size: cover;
   }
@@ -579,5 +579,25 @@ header {
   .newsletter-small {
     max-width: 300px;
     width: 100%;
+  }
+
+  #bigger-lineheight {
+    line-height: 1.2;
+  }
+
+  /* Subscribe and Newsletter */
+
+  .last-categories {
+    height: fit-content;
+  }
+
+  .newsletter-img {
+    width: 48%;
+    max-width: 191px;
+    height: auto;
+  }
+
+  .newsletter-text {
+    width: 52%;
   }
 }
