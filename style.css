@@ -507,6 +507,61 @@ header {
   background-size: cover;
 }
 
+/* Footer */
+
+.footer-logo {
+  height: 60px;
+  width: 50%;
+  background: url(./img/newsweek-vector-logo.svg) -7px no-repeat;
+  background-size: cover;
+}
+
+footer span {
+  color: #666;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social {
+  color: #666;
+  font-size: 26px;
+}
+
+.grey-link {
+  color: #666;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grey-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#fb:hover {
+  color: #3b5998;
+}
+
+#twitter:hover {
+  color: #1da1f2;
+}
+
+#insta:hover {
+  color: #405de6;
+}
+
+#tumblr:hover {
+  color: #35465c;
+}
+
+#linkedin:hover {
+  color: #0077b5;
+}
+
+#editions {
+  font-size: 14px;
+}
+
 /* Larger version */
 
 @media (min-width: 768px) {
@@ -565,6 +620,12 @@ header {
     width: 191px;
     background-position: 50% 0;
     background-size: cover;
+  }
+
+  /* Footer */
+
+  .footer-logo {
+    height: 48px;
   }
 }
 
